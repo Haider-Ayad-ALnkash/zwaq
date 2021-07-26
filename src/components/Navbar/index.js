@@ -1,8 +1,20 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../images/Logo/MY_LOGO.png'
-const Nav =()=>{
-    return(
+class Nav extends Component{
+    componentDidMount(){
+// Scroll to section
+    let links=document.querySelectorAll(".navbar .links .ul-links");
+    links.forEach(link => {
+        link.addEventListener("click",(e)=>{
+            document.querySelector(e.target.dataset.section).scrollIntoView({
+            behavior:'smooth' 
+            })
+        });
+    });
+    }
+    render(){
+        return(
             <div className="navbar">
                 <div className="container">
                     <div className="logo">
@@ -23,14 +35,8 @@ const Nav =()=>{
                 </div>
             </div>
     )
+    }
+    
 }
-//Scroll to section
-let links=document.querySelectorAll(".navbar .links .ul-links");
-links.forEach(link => {
-    link.addEventListener("click",(e)=>{
-        document.querySelector(e.target.dataset.section).scrollIntoView({
-           behavior:'smooth' 
-        })
-    });
-});
+
 export default Nav;
