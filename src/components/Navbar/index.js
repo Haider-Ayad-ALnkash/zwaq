@@ -25,11 +25,11 @@ class Nav extends Component{
                     <div className="links">
                     <ul className="ul-links">
                         
-                        <li className="item-link"><Link  data-section=".profile_About" to =""> About</Link></li>
-                        <li className="item-link"> <Link  data-section=".work" to =""> Work</Link></li>
-                        <li className="item-link"> <Link  data-section=".portfolio" to =""> portfolio</Link></li>
+                        <li className="item-link"><Link  data-section=".profile_About" to ="#"> About</Link></li>
+                        <li className="item-link"> <Link  data-section=".work" to ="#"> Work</Link></li>
+                        <li className="item-link"> <Link  data-section=".portfolio" to ="#"> portfolio</Link></li>
                         <li className="item-link" > <Link data-section=".creative" to ="#"> Creative</Link></li>
-                        <li className="item-link"> <Link  data-section=".drop" to =""> Contact</Link></li>
+                        <li className="item-link"> <Link  data-section=".drop" to ="#"> Contact</Link></li>
                     </ul>
                     </div>
                 </div>
