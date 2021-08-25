@@ -6,6 +6,7 @@ import About from '../About';
 import Creative from '../Creative';
 import Social from '../SocialMedia';
 import Skills from '../Skills'
+import Artical from '../Artical'
 class Index extends Component {
   render(){
     return(
@@ -17,6 +18,7 @@ class Index extends Component {
       <Portifilio/>
        <Creative/>
        <Social/>
+       <Artical/>
      </div>
     )
   }

@@ -448,6 +448,46 @@
 
 /* 
         ==========================================================
+                       Start accordion
+        ==========================================================                    
+*/
+.accordion{
+  direction: rtl;
+  width: 100%;
+  outline: 0;
+  border: 0;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 2px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.accordion::after{
+  content: '\002b';
+  float: right;
+  color: #777;
+}
+.active::after{
+  content: '\2212';
+}
+.accordion:hover{
+  background-color: #CCC;
+}
+.desc{
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.desc p{
+  font-weight: bold;
+  font-size: 18px;
+  color: #777;
+  margin: 10px;
+}
+
+
+/* 
+        ==========================================================
                             Drop style
         ==========================================================                    
 */

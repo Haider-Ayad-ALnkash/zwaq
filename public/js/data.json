@@ -2,7 +2,7 @@
     "works" : [
         {
             "id" : 1,
-            "href":"https://haider-ayad-alnkash.github.io/my-web/Memory_game.html",
+            "href":"https://haider-ayad-alnkash.github.io/memoryGame/",
             "icon_name": "icon fas fa fa-gamepad fa-4x",
             "title": "Memory game",
             "body": "This game strengthens the player’s momentary memory. There will be ten minutes and the cards will turn over to remember similar images."
