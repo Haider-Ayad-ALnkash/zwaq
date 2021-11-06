@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/zwaq/static/css/main.6c6bb671.chunk.css",
+    "main.js": "/zwaq/static/js/main.e6c701e5.chunk.js",
+    "main.js.map": "/zwaq/static/js/main.e6c701e5.chunk.js.map",
+    "runtime-main.js": "/zwaq/static/js/runtime-main.d6971285.js",
+    "runtime-main.js.map": "/zwaq/static/js/runtime-main.d6971285.js.map",
+    "static/js/2.b300ef22.chunk.js": "/zwaq/static/js/2.b300ef22.chunk.js",
+    "static/js/2.b300ef22.chunk.js.map": "/zwaq/static/js/2.b300ef22.chunk.js.map",
+    "static/js/3.7ebb7da2.chunk.js": "/zwaq/static/js/3.7ebb7da2.chunk.js",
+    "static/js/3.7ebb7da2.chunk.js.map": "/zwaq/static/js/3.7ebb7da2.chunk.js.map",
+    "index.html": "/zwaq/index.html",
+    "static/css/main.6c6bb671.chunk.css.map": "/zwaq/static/css/main.6c6bb671.chunk.css.map",
+    "static/js/2.b300ef22.chunk.js.LICENSE.txt": "/zwaq/static/js/2.b300ef22.chunk.js.LICENSE.txt",
+    "static/media/01.7d27d873.jpg": "/zwaq/static/media/01.7d27d873.jpg",
+    "static/media/Delivery.1aabf8c6.svg": "/zwaq/static/media/Delivery.1aabf8c6.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d6971285.js",
+    "static/js/2.b300ef22.chunk.js",
+    "static/css/main.6c6bb671.chunk.css",
+    "static/js/main.e6c701e5.chunk.js"
+  ]
+}
