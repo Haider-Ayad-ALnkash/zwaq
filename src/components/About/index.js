@@ -1,5 +1,5 @@
 import React from 'react';
-import imgAbout from '../images/About/About.gif'
+import imgAbout from '../images/About/about.gif'
 const About =()=>{
     return(
       <div className="profile_About">

@@ -1,14 +1,12 @@
-import React, { Component } from 'react';
+import React, {useState, useEffect } from 'react';
 import axios from 'axios';
-class Work extends Component {
-    state={
-        work:[]
-    }
-    componentDidMount(){
-        axios.get('js/data.json').then(res=>{this.setState({work:res.data.works})})
-    }
-render(){
-    const {work}=this.state;
+
+export default function Work() {
+    const [work,setWork]=useState([]);
+    useEffect(()=>{
+        axios.get('../../js/data.json').then(res=>{setWork(res.data.works)})
+
+    },[])
     const workList=work.map(workItem=>{
         return(
             <div className="part" key={workItem.id}>
@@ -22,17 +20,15 @@ render(){
                 </a>
             </div>
         )
-       
     })
-    return(    
+
+    return (
         <div className="work">
         <div className="container">
             <h2 className="work-title">MY WORK</h2>
                 {workList}
         </div>
     </div>
-        )
+    )
 }
-   
-}
-export default Work;
+
